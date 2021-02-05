@@ -1,0 +1,98 @@
+@media only screen and (max-width: 500px) {
+  .header {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .container {
+    height: 900px;
+  }
+  .profil {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 1100px;
+  }
+  .profil .profil-cover {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: black;
+    width: 900px;
+    margin-left: 3rem;
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 8rem;
+  }
+  .profil .profil-cover .rond img {
+    width: 20rem;
+    margin: 7rem 0 0 0;
+  }
+  .profil .bio {
+    margin-bottom: 15rem;
+    margin-right: -35rem;
+  }
+  .profil .bio p {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .profil .bio em {
+    font-size: 3rem;
+  }
+  .profil .bio a {
+    font-size: 3rem;
+    background-color: lightblue;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .profil .nav {
+    margin: 0;
+    position: absolute;
+    margin-top: 45rem;
+    margin-left: 18rem;
+    width: 600px;
+  }
+  .profil .nav li {
+    font-size: 2rem;
+  }
+
+  .body {
+    margin-top: 6rem;
+  }
+  .body .people {
+    overflow: hidden;
+    margin-right: -35rem;
+  }
+  .body-bottom-content {
+    grid: none;
+  }
+  .body-bottom-content .left ul li a,
+  h3 {
+    font-size: 3rem;
+  }
+  .body-bottom-content .left .photo {
+    display: none;
+  }
+  .body-bottom-content .left .friends {
+    display: none;
+  }
+  .body-bottom-content .left p {
+    display: none;
+  }
+  .right1 i,
+  li {
+    font-size: 3rem;
+  }
+  .right1 {
+    height: 10rem;
+  }
+
+  .right2-down1,
+  .right2-down {
+    display: none;
+  }
+  .right2-down2 {
+    height: 10rem;
+  }
+}

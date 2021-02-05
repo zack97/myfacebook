@@ -615,38 +615,3 @@
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
         outline: none; }
-
-@media (max-width: 700px) {
-  /*html {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    margin: 0 2rem;
-  }*/
-  .container {
-    width: 100%; }
-    .container .header {
-      width: 100%;
-      height: 5rem; }
-      .container .header .icon {
-        margin: 0 7rem; }
-        .container .header .icon i {
-          padding: 1rem; }
-      .container .header .user {
-        margin: 0;
-        margin-left: 1rem;
-        margin-top: 0.3rem; }
-    .container .line {
-      width: 100%; }
-  .profil-cover {
-    width: 100%; }
-  .profil .nav .nav1 ul li {
-    padding: 2rem; }
-  .profil .bio {
-    display: none; }
-  .profil hr {
-    display: none; }
-  .body .people {
-    margin-top: -4rem;
-    overflow: visible;
-    margin-left: 35rem; } }
